@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AboutUs">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:background="#B8B8B8"
+            android:text="Contact Us"
+            android:textAlignment="center"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".08"
+                android:layout_height="wrap_content"
+                android:src="@drawable/linkdin"
+                android:id="@+id/imgYoutube"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".08"
+                android:layout_height="wrap_content"
+                android:src="@drawable/instagram"
+                android:id="@+id/imgInstagram"/>
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_weight=".08"
+                android:layout_height="wrap_content"
+                android:src="@drawable/twitter"
+                android:id="@+id/imgTwitter"/>
+
+    </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="10dp"
+            android:textAlignment="center"
+            android:text="For Bussiness Enquiry:"
+            android:background="#B8B8B8"/>
+        <TextView
+            android:id="@+id/textEmail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="2021pgcaca029@nitjsr.ac.in"
+            android:textSize="25dp"
+            android:textColor="#003B55"
+            android:textStyle="bold|italic"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:text="Website:"
+            android:textAlignment="center"
+            android:background="#B8B8B8"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/txtWebsiteUrl"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:textColor="#003B55"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:text="https://www.nitjsr.ac.in"/>
+        <LinearLayout
+            android:orientation="vertical"
+            android:background="#FF0000"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="23dp"
+                android:textColor="#FFFFFF"
+                android:layout_margin="10dp"
+                android:textAlignment="center"
+                android:text="Rate us on play Store"/>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star"/>
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/ic_star"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:background="#B8B8B8"
+            android:text="Service we Provided"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:padding="5dp"
+            android:textAlignment="center"
+            android:background="#9CF69A"
+            android:text="We develop project in differents languages framework and technology \n \n Python Dejango +PHP (Aman Kayat :9518455871,Bhawana Khurana ) \n \n
+Angular + MySql or MongoDb\nNodeJs + Angular Js(Anmol saxena :9675475487, Anmol Sharma :6399867846 , Abhishek :9818272573,  Shreyansh shukla:7505411763)\n\n Android Application(Surendra Yadav :9536185186) \n\nDhruv Goyal : bhai tera mujhe pata hi nahi tu kis technology me hai(sorry)"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="158dp"
+            android:layout_marginTop="10dp"
+            android:background="#28FFDF"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="0dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_weight=".08"
+                android:paddingStart="10dp"
+                android:src="@drawable/group_pic" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.3"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="5dp"
+                    android:gravity="center"
+                    android:paddingTop="10dp"
+                    android:text="Devloped by"
+                    android:textAlignment="center"
+                    android:textColor="@color/black"
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textSize="32dp"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:textAlignment="center"
+                    android:textStyle="bold"
+                    android:paddingTop="5dp"
+                    android:layout_marginEnd="5dp"
+                    android:text="B Block Army "/>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+</LinearLayout>
+
+</ScrollView>
